@@ -7,14 +7,23 @@ This capstone project applies deep learning techniques to classify vehicle image
 Dataset Preparation
 
 • 	Source: Manually curated image dataset split into train/ and validation/ folders.
+
 • 	Structure:
+
 • 	train/Car/ and train/Bike/
+
 • 	validation/Car/ and validation/Bike/
+
 • 	Cleaning:
+
 • 	Removed non-JPG formats (e.g., WEBP, PNG) to ensure compatibility.
+
 • 	Final counts:
+
 • 	Bike (Train): 391 JPG images
+
 • 	Car (Train): 399 JPG images
+
 
 https://drive.google.com/file/d/1sr5xheAEcvoDvIBO-b1ANjnW1GXDmn2V/view
 
@@ -46,11 +55,15 @@ ImageDataGenerator(rescale=1./255)
 
 
 • 	All images resized to 150×150 pixels
+
 • 	Batch size: 32
+
 • 	Class mode: Binary (Car vs Bike)
 
 
+
 Model Architecture
+
 Built using TensorFlow’s Keras API:
 
 model = keras.Sequential([
@@ -79,8 +92,11 @@ model.compile(
 Model Training
 
 • 	Epochs: 20 (early stopping after 5 stagnant epochs)
+
 • 	Steps per epoch: Calculated manually from dataset size
+
 • 	Callback: EarlyStopping(monitor='val_loss', patience=5)
+
 
 
 Training was conducted using .fit() with both training and validation generators.
@@ -121,30 +137,51 @@ ample predictions on validation images:
 These results suggest:
 
 • 	The model tends to favor the "Car" class, even with low confidence.
+
 • 	Misclassifications may stem from background cues or visual similarity (e.g., motorcycles).
+
 • 	Feature extraction could be improved with convolutional layers.
+
 
 Key Learnings & Skills Gained
 
 Technical Skills
+
 • 	Image preprocessing with 
+
 • 	Manual dataset curation and format filtering
+
 • 	CNN architecture design using Keras
+
 • 	Batch Normalization and ReLU activation
+
 • 	Binary classification with sigmoid output
+
 • 	Early stopping and training optimization
+
 • 	Evaluation using accuracy, precision, recall, and F1-score
+
 • 	Visualization of predictions and confidence scores
+
 • 	Manual inspection of model behavior and misclassifications
 
+
 Conceptual Insights
+
 • 	Importance of clean, well-structured image datasets
+
 • 	How augmentation improves generalization
+
 • 	Role of batch normalization in stabilizing training
+
 • 	Trade-offs between precision and recall in early epochs
+
 • 	Challenges in binary classification with visually similar classes
+
 • 	Need for convolutional layers to extract spatial features
+
 • 	Value of confidence calibration and threshold tuning
+
 
 **Author:** Carllos Watts-Nogueira  
 📧 [carlloswattsnogueira@gmail.com](mailto:carlloswattsnogueira@gmail.com)  
