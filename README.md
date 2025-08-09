@@ -88,44 +88,34 @@ Training was conducted using .fit() with both training and validation generators
 Evaluation Metrics
 Final performance after 15 epochs:
 
-| Metric | Value | 
-
-| Loss | 0.4367 | 
-
-| Validation Accuracy | 81.01% | 
-
-| Precision | 79.76% | 
-
-| Recall | 83.75% | 
+| Metric              | Value   |
+|---------------------|---------|
+| Loss                | 0.4367  |
+| Validation Accuracy | 81.01%  |
+| Precision           | 79.76%  |
+| Recall              | 83.75%  |
 
 
 Epoch Snapshots
 
-| Epoch | Train Acc | Train Prec | Train Recall | Val Acc | Val Prec | Val Recall | 
-
-| 1 | 67.52% | 68.04% | 63.84% | 49.22% | 100.00% | 01.52% | 
-
-| 5 | 78.79% | 84.24% | 72.68% | 71.88% | 87.50% | 53.03% | 
-
-| 10 | 81.25% | 64.71% | 100.00% | 81.25% | 79.17% | 86.36% | 
-
-| 15 | 78.96% | 83.42% | 73.04% | 79.69% | 80.88% | 80.88% | 
+| Epoch | Train Accuracy | Train Precision | Train Recall | Val Accuracy | Val Precision | Val Recall |
+|-------|----------------|------------------|--------------|--------------|----------------|-------------|
+| 1     | 67.52%         | 68.04%           | 63.84%       | 49.22%       | 100.00%        | 01.52%      |
+| 5     | 78.79%         | 84.24%           | 72.68%       | 71.88%       | 87.50%         | 53.03%      |
+| 10    | 81.25%         | 64.71%           | 100.00%      | 81.25%       | 79.17%         | 86.36%      |
+| 15    | 78.96%         | 83.42%           | 73.04%       | 79.69%       | 80.88%         | 80.88%      |
 
 
 Prediction Visualization
 ample predictions on validation images:
 
-| Prediction | Confidence | Actual Class | Result | 
-
-| Car | 0.57 | Bike | Incorrect | 
-
-| Car | 0.72 | Car | Correct | 
-
-| Bike | 0.05 | Bike | Correct | 
-
-| Car | 0.97 | Car | Correct | 
-
-| Car | 0.96 | Car | Correct | 
+| Prediction | Confidence | Actual Class | Result    |
+|------------|------------|--------------|-----------|
+| Car        | 0.57       | Bike         | Incorrect |
+| Car        | 0.72       | Car          | Correct   |
+| Bike       | 0.05       | Bike         | Correct   |
+| Car        | 0.97       | Car          | Correct   |
+| Car        | 0.96       | Car          | Correct   |
 
 
 These results suggest:
@@ -156,13 +146,9 @@ Conceptual Insights
 • 	Need for convolutional layers to extract spatial features
 • 	Value of confidence calibration and threshold tuning
 
-Author
-
-Carllos Watts-Nogueira
-
-carlloswattsnogueira@gmail.com
-
-https://www.linkedin.com/in/carlloswattsnogueira/
+**Author:** Carllos Watts-Nogueira  
+📧 [carlloswattsnogueira@gmail.com](mailto:carlloswattsnogueira@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/carlloswattsnogueira/)
 
 
 
