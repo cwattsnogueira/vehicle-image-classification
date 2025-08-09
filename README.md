@@ -8,6 +8,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 ![Model Type](https://img.shields.io/badge/Model-CNN%20Binary%20Classifier-blueviolet.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## Project Overview
 
