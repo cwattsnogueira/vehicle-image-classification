@@ -4,11 +4,15 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
-![Keras](https://img.shields.io/badge/Keras-API-red.svg)
+![Deep Learning](https://img.shields.io/badge/DeepLearning-Keras%20%2F%20CNN-red.svg)
+![Framework](https://img.shields.io/badge/Framework-Keras-orange.svg)
+![Architecture](https://img.shields.io/badge/Architecture-CNN-red.svg)
+![Computer Vision](https://img.shields.io/badge/Domain-Image%20Classification-lightblue.svg)
+![Augmentation](https://img.shields.io/badge/Data-Augmentation%20Enabled-yellow.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 ![Model Type](https://img.shields.io/badge/Model-CNN%20Binary%20Classifier-blueviolet.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 ## Project Overview
 
